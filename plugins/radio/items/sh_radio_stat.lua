@@ -4,6 +4,7 @@ ITEM.desc = "A green radio with dials."
 ITEM.price = 65
 ITEM.model = Model("models/props_lab/citizenradio.mdl")
 ITEM.category = "Communication"
+ITEM.flag = "l"
 ITEM.functions = {}
 ITEM.functions.Use = {
 	tip = "Drops the radio on the ground.",

@@ -10,8 +10,10 @@ function SCHEMA:GetDefaultInv(inventory, client, data)
 	-- PrintTable(data) to see what information it contains.
 	
 	if (data.faction == FACTION_CITIZEN) then
-		inventory:Add("weapon_shotgun", 1, {})
+            client:GiveMoney(1000)
 	end
+    
+    
 end
 
 --[[
@@ -19,7 +21,7 @@ end
     Just like regular gamemodes, except we replace GM with SCHEMA.
 --]]
 function SCHEMA:PlayerSpawn(client)
-	print("Welcome to Salem.")
+	print("Welcome to Allegory")
 end
 
 --[[

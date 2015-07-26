@@ -2,6 +2,7 @@ ITEM.name = "Zip Tie"
 ITEM.desc = "An orange colored zip tie, capable of restricting someone."
 ITEM.model = Model("models/items/crossbowrounds.mdl")
 ITEM.price = 25
+ITEM.flag = "l"
 ITEM.functions = {}
 ITEM.functions.Use = {
 	text = "Tie",

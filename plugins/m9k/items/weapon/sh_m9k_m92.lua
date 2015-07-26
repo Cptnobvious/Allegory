@@ -4,3 +4,4 @@ ITEM.model = Model("models/weapons/w_beretta_m92.mdl")
 ITEM.class = string.gsub(ITEM.uniqueID, "weapon_", "")
 ITEM.type = "pistol"
 ITEM.price = 800
+ITEM.flag = "g"
