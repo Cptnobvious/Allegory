@@ -1,0 +1,8 @@
+"allegory"
+{
+	"base"		"nutscript"
+	"title"		"Allegory"
+	"author"	"Chessnut"
+	"menusystem" "1" "maps" "^all_"
+
+}
