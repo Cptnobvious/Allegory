@@ -10,7 +10,7 @@ function SCHEMA:GetDefaultInv(inventory, client, data)
 	-- PrintTable(data) to see what information it contains.
 	
 	if (data.faction == FACTION_CITIZEN) then
-            --client:GiveMoney(1000)
+            inventory:Add("literature_oocinfo", 1)
 	end
     
     

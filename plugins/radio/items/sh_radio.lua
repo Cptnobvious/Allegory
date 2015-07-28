@@ -1,7 +1,7 @@
 ITEM.name = "Radio"
 ITEM.uniqueID = "radio"
 ITEM.category = "Communication"
-ITEM.model = Model("models/dpfilms/metropolice/props/metrold_radio.mdl")
+ITEM.model = Model("models/Items/battery.mdl")
 ITEM.desc = "A radio with its frequency set to %Freq|nothing%.\nThis radio is currently %On|off%."
 ITEM.price = 50
 ITEM.flag = "l"
